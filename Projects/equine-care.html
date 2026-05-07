@@ -19,24 +19,39 @@
 </head>
 <body class="body-color">
     <div id="preloader" class="preloader">
-        <div class="animation-preloader"><div class="spinner"></div><div class="txt-loading"><span data-text-preloader="P" class="letters-loading">P</span><span data-text-preloader="O" class="letters-loading">O</span><span data-text-preloader="R" class="letters-loading">R</span><span data-text-preloader="T" class="letters-loading">T</span><span data-text-preloader="F" class="letters-loading">F</span><span data-text-preloader="O" class="letters-loading">O</span><span data-text-preloader="L" class="letters-loading">L</span><span data-text-preloader="I" class="letters-loading">I</span><span data-text-preloader="O" class="letters-loading">O</span></div>                                        <p class="text d-none d-xl-block">Nullam dignissim, ante scelerisque the is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros.</p>
+        <div class="animation-preloader"><div class="spinner"></div><div class="txt-loading"><span data-text-preloader="P" class="letters-loading">P</span><span data-text-preloader="O" class="letters-loading">O</span><span data-text-preloader="R" class="letters-loading">R</span><span data-text-preloader="T" class="letters-loading">T</span><span data-text-preloader="F" class="letters-loading">F</span><span data-text-preloader="O" class="letters-loading">O</span><span data-text-preloader="L" class="letters-loading">L</span><span data-text-preloader="I" class="letters-loading">I</span><span data-text-preloader="O" class="letters-loading">O</span></div><p class="text-center">Loading</p></div><div class="loader"><div class="row"><div class="col-3 loader-section section-left"><div class="bg"></div></div><div class="col-3 loader-section section-left"><div class="bg"></div></div><div class="col-3 loader-section section-right"><div class="bg"></div></div><div class="col-3 loader-section section-right"><div class="bg"></div></div></div></div>
+    </div>
+    <button id="back-top" class="back-to-top"><i class="fa-regular fa-arrow-up"></i></button>
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                             <a href="../index.html" class="header-logo" style="font-size: 24px; font-weight: 800; font-family: inherit; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                            <img src="../assets/img/favicon.svg" alt="Logo" style="height: 26px; width: auto;">
+                            <span><span style="color: #ffffff;">Janitha</span> <span style="color: #ffffff;">Madhushan</span></span>
+                             </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text d-none d-xl-block">
+                        I'm a UI/UX Designer crafting user-centered, visually engaging digital experiences with expertise in graphic design, WordPress, and front-end development.
+                    </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li class="d-flex align-items-center"><div class="offcanvas__contact-icon"><i class="fal fa-map-marker-alt"></i></div><div class="offcanvas__contact-text"><a target="_blank" href="#">Main Street, Melbourne, Australia</a></div></li>
-                            <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="fal fa-envelope"></i></div><div class="offcanvas__contact-text"><a href="mailto:info@example.com"><span>info@example.com</span></a></div></li>
-                            <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="fal fa-clock"></i></div><div class="offcanvas__contact-text"><a target="_blank" href="#">Mod-friday, 09am -05pm</a></div></li>
-                            <li class="d-flex align-items-center"><div class="offcanvas__contact-icon mr-15"><i class="far fa-phone"></i></div><div class="offcanvas__contact-text"><a href="tel:+11002345909">+11002345909</a></div></li>
-                        </ul>
-                        <div class="header-button mt-4 text-center"><a href="../contact.html" class="theme-btn">Consultation <i class="fa-solid fa-arrow-right"></i></a></div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
                                 <div class="offcanvas__contact-text">
                                     <a target="_blank" href="#">Colombo, Sri Lanka</a>
                                 </div>
@@ -50,14 +65,6 @@
                                             class="mailto:info@example.com">janithamadhushan@gmail.com</span></a>
                                 </div>
                             </li>
-                            <!--<li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
-                                </div>
-                            </li>-->
                             <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon mr-15">
                                     <i class="far fa-phone"></i>
@@ -68,49 +75,7 @@
                             </li>
                         </ul>
                         <div class="header-button mt-4 text-center">
-                            <a href="#contact" class="theme-btn">
-                                Consultation <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Colombo, Sri Lanka</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">janithamadhushan@gmail.com</span></a>
-                                </div>
-                            </li>
-                            <!--<li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
-                                </div>
-                            </li>-->
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="tel:+94716610662">+94 71 6610662</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="header-button mt-4 text-center">
-                            <a href="#contact" class="theme-btn">
+                            <a href="../index.html#contact" class="theme-btn">
                                 Consultation <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
@@ -135,7 +100,7 @@
                     </div>
                     <div class="mean__menu-wrapper">
                         <div class="main-menu">
-                                                        <nav id="mobile-menu">
+                            <nav id="mobile-menu">
                                 <ul>
                                     <li><a href="../index.html#home" class="smooth-scroll">Home</a></li>
                                     <li><a href="../index.html#about" class="smooth-scroll">About</a></li>
@@ -148,14 +113,8 @@
                         </div>
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
-                        <a href="#contact" class="theme-btn secondary-btn smooth-scroll"> Hire Me
-                            <i class="fa-sharp fa-regular fa-arrow-right"></i>
-                        </a>
-                        <div class="header__hamburger d-xl-none my-auto">
-                            <div class="sidebar__toggle">
-                                <i class="fas fa-bars"></i>
-                            </div>
-                        </div>
+                        <a href="../index.html#contact" class="theme-btn secondary-btn smooth-scroll">Hire Me <i class="fa-sharp fa-regular fa-arrow-right"></i></a>
+                        <div class="header__hamburger d-xl-none my-auto"><div class="sidebar__toggle"><i class="fas fa-bars"></i></div></div>
                     </div>
                 </div>
             </div>
@@ -188,25 +147,25 @@
                 <div class="row g-5">
                     <div class="col-lg-8">
                         <div class="project-details-content">
+                            <span>Comprehensive horse health and care management platform</span>
                             <h2>Equine Care Management Website</h2>
-                            <p class="mb-3">A web-based platform designed to help equine surgeons create structured rehabilitation plans for injured horses. It allows owners, trainers, and yard staff to follow daily rehab tasks and track progress in a clear, organized way.</p>
+                            <p class="mb-3">A specialized web platform for horse owners and equine professionals to manage health records, veterinary appointments, training schedules, and nutrition plans for optimal horse care.</p>
                             <h3 class="mt-2">Research & User Insights</h3>
                             <ul class="list-item">
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>User Research:</h6> Reviewed how rehabilitation plans are currently shared and managed through notes, messages, and manual tracking, which often leads to miscommunication</li>
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>Target Audience:</h6> Equine surgeons, horse owners, trainers, and yard staff involved in daily care and rehabilitation</li>
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>User Personas:</h6> Professionals and caretakers who need clear instructions and an easy way to track and report daily rehab activities</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>User Research:</h6> Studies with horse owners and veterinarians</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>Target Audience:</h6> Horse enthusiasts seeking organized care management</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>User Personas:</h6> Dedicated equestrians wanting comprehensive tracking</li>
                             </ul>
-                            <p>The platform focuses on simplifying communication between surgeons and caretakers by turning rehab plans into structured, trackable tasks. It ensures everyone involved stays aligned and updated on the horse’s recovery.</p>
+                            <p>The platform provides centralized health record storage, appointment scheduling, expense tracking, and collaboration tools for veterinarians and trainers.</p>
                             <h3 class="mt-4">Problem Statement</h3>
                             <ul class="list-item">
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Rehab plans are often shared in unstructured formats</li>
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Difficult to track daily progress and ensure tasks are completed</li>
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Miscommunication between surgeons and caretakers</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Lack of integrated systems for equine health management</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Difficulty tracking veterinary and training records across providers</li>
                             </ul>
                             <h3>Final Outcome & Impact</h3>
                             <ul class="list-item">
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>Better Care Coordination:</h6> All stakeholders can access and follow the same structured rehab plan</li>
-                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>Improved Tracking & Accountability:</h6> Daily tasks and progress are clearly recorded, making recovery easier to monitor</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"><h6>User Adoption:</h6> 2000+ registered equine profiles</li>
+                                <li><img src="../assets/img/icon/arrow-circle-right.svg" alt="icon"> Improved horse health outcomes through better record management</li>
                             </ul>
                         </div>
                     </div>
@@ -215,9 +174,9 @@
                             <div class="single-sidebar-widget">
                                 <div class="wid-title"><h3>Project Information</h3></div>
                                 <div class="project-info">
-                                    <div class="item"><h6>Project Name</h6><span>Equine Care Management Website</span></div>
-                                    <div class="item"><h6>Tools</h6><span>Sketch</span></div>
-                                    <div class="item"><h6>Year</h6><span>2026</span></div>
+                                    <div class="item"><h6>Project Name</h6><span>Equine Care Management</span></div>
+                                    <div class="item"><h6>Technology</h6><span>Figma, Web Design, Health Systems</span></div>
+                                    <div class="item"><h6>Date</h6><span>2024-2025</span></div>
                                 </div>
                             </div>
                             <div class="info-sidebar-widget" style="background-color: #1a1a1a; background-image: url(../assets/img/shape/bg.png);">
@@ -232,7 +191,7 @@
                                         </ul>
                                     </div>
                                     <a href="../index.html#contact" class="theme-btn secondary-btn smooth-scroll">Contact Me <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="https://www.figma.com/design/fb1BUnSM8LNQiVB6knx0nz/Equine-Care-Management-Website?node-id=0-1&t=Txk69zDbKVUNFhBh-1" class="theme-btn" target="_blank" rel="noopener">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                                    <a href="#" class="theme-btn" target="_blank" rel="noopener">View Project <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
