@@ -3911,17 +3911,17 @@ span {
 }
 @media (max-width: 991px) {
   .hero-1 .hero-content h1 span.style-2 {
-    font-size: 64px;
+    font-size: 130px;
   }
 }
 @media (max-width: 767px) {
   .hero-1 .hero-content h1 span.style-2 {
-    font-size: 56px;
+    font-size: 130x;
   }
 }
 @media (max-width: 575px) {
   .hero-1 .hero-content h1 span.style-2 {
-    font-size: 40px;
+    font-size: 130px;
   }
 }
 .hero-1 .hero-content .hero-bottom {
